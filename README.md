@@ -1,8 +1,8 @@
-## HCI Library API
+# HCI Library API
 
 The HCI Library API is a comprehensive library management system built with FastAPI, SQLAlchemy, and PostgreSQL and Redis for caching. This API allows users to manage their book collections, fetch books from the Google Books API, create user profiles, bookmark books, and store user preferences
 
-### Prerequisites
+## Prerequisites
 
 - Docker
 - Docker Compose
@@ -38,11 +38,11 @@ The HCI Library API is a comprehensive library management system built with Fast
 └── requirements.txt
 ```
 
-### High-Level Overview of API Model
+## High-Level Overview of API Model
 
 ![Project Model](./model.jpeg)
 
-### nstallation
+### Installation
 
 1. Clone the repository:
 
@@ -57,7 +57,7 @@ The HCI Library API is a comprehensive library management system built with Fast
    ```
 3. Update the `.env` file with your environment variables.
 
-### Setting Up the Project Locally
+## Setting Up the Project Locally
 
 1. Create a virtual environment and install dependencies:
 
@@ -78,7 +78,7 @@ The HCI Library API is a comprehensive library management system built with Fast
    ```
 4. The API will be available at `http://localhost:8000`.
 
-### Running the Application with Docker
+## Running the Application with Docker
 
 1. Build and start the Docker containers:
 
@@ -87,7 +87,7 @@ The HCI Library API is a comprehensive library management system built with Fast
    ```
 2. The API will be available at `http://localhost:8080`.
 
-### Database Migrations
+## Database Migrations
 
 1. To create a new migration, run:
 
@@ -100,7 +100,7 @@ The HCI Library API is a comprehensive library management system built with Fast
    alembic upgrade head
    ```
 
-### License
+## License
 
 This project is licensed under the MIT License.
 
