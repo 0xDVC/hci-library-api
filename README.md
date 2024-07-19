@@ -38,6 +38,10 @@ The HCI Library API is a comprehensive library management system built with Fast
 └── requirements.txt
 ```
 
+### High-Level Overview of API Model
+
+![Project Model](model.jpeg)
+
 ### Installation
 
 1. Clone the repository:
