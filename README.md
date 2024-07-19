@@ -8,6 +8,36 @@ The HCI Library API is a comprehensive library management system built with Fast
 - Docker Compose
 - Python 3.12.4
 
+
+## Project 
+
+```
+├── Alembic
+│   ├── README
+│   ├── env.py
+│   ├── script.py.mako
+│   └── versions
+├── Makefile
+├── README.md
+├── alembic.ini
+├── app
+│   ├── app.py
+│   ├── core
+│   │   ├── db.py
+│   │   └── logger.py
+│   ├── models
+│   │   ├── audiobook.py
+│   │   ├── book.py
+│   │   ├── bookmark.py
+│   │   └── user.py
+│   └── routes
+├── docker
+│   ├── Dockerfile
+│   ├── Dockerfile.local
+│   └── docker-compose.yml
+└── requirements.txt
+```
+
 ### Installation
 
 1. Clone the repository:
@@ -72,4 +102,4 @@ This project is licensed under the MIT License.
 
 
 
-This project is still under construction
+__This project is still under construction__
