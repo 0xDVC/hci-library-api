@@ -1,0 +1,5 @@
+fastapi>=0.111.1
+sqlalchemy>=2.0.31
+logging>=0.4.9.6
+redis>=5.0.7
+google-api-python-client>=2.137.0
