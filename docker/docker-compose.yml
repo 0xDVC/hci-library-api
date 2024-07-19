@@ -6,7 +6,7 @@ services:
     container_name: library_db
     restart: always
     volumes:
-      - db_data:/var/lib/postgresql/data
+      - library_data:/var/lib/postgresql/data
     environment:
       - POSTGRES_USER=${POSTGRES_USER}
       - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
@@ -51,5 +51,5 @@ services:
       - REDIS_URL=${REDIS_URL}
 
 volumes:
-  db_data:
+  library_data:
   redis_data:
